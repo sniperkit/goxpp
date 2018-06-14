@@ -5,7 +5,10 @@ import (
 	"io"
 	"testing"
 
-	"github.com/mmcdole/goxpp"
+	// internal
+	xpp "github.com/sniperkit/goxpp/pkg"
+
+	// external
 	"github.com/stretchr/testify/assert"
 )
 

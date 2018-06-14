@@ -1,3 +1,26 @@
+vendor/
+glide
+build/
+
+vendor
+vendor/
+vendor/*
+vendor/**
+
+goxpp
+
+cmd/goxpp/goxpp*
+
+bin
+bin/
+bin/*
+bin/**
+
+dist
+dist/
+dist/*
+dist/**
+
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
 *.a
@@ -22,3 +45,5 @@ _testmain.go
 *.exe
 *.test
 *.prof
+
+.DS_STORE
